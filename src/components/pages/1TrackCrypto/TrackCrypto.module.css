@@ -45,3 +45,11 @@
     left: 902.89px;
     top: 129px;
 }
+
+.cardWarpper {
+    position: absolute;
+    top: 641.68px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}

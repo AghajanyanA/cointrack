@@ -1,7 +1,7 @@
 import s from './TrackCrypto.module.css'
 import building from '../../../images/building.png'
 import Button from '../../reusable/Button/Button';
-import Cards from './Cards/Cards';
+import Card from './Card/Card';
 
 const TrackCrypto = () => {
     return <div className={s.wrap}>
@@ -11,7 +11,12 @@ const TrackCrypto = () => {
             <Button>Start Tracking</Button>
         </div> 
         <img className={s.building} src={building} alt="building" />
-        <Cards />
+        <div className={s.cardWarpper}>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+        </div>
     </div> 
 }
  
