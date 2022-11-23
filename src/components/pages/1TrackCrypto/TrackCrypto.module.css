@@ -1,0 +1,47 @@
+.wrap {
+    width: 100vw;
+    height: calc(100vh - 80px);
+
+}
+
+.h1 {
+    position: absolute;
+    width: 609.77px;
+    height: 138px;
+    left: 211.94px;
+    top: 261px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    letter-spacing: 0.02em;
+}
+
+.h3 {
+    position: absolute;
+    width: 632.43px;
+    height: 64px;
+    left: 210.99px;
+    top: 420.88px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: justify;
+    color: #8085B1;
+}
+
+.button {
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 212px;
+    top: 532.27px;
+    border-radius: 10px;
+}
+
+.building {
+    position: absolute;
+    width: 806.11px;
+    height: 664px;
+    left: 902.89px;
+    top: 129px;
+}
