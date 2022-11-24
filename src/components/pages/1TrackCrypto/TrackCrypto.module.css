@@ -1,28 +1,43 @@
 .wrap {
-    width: 100vw;
+    max-width: 100vw;
     height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    /* max-width: 1498px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
 
+.body {
+    display: flex; 
+    position: relative;
+    top: 49px;
+    right: 211px;
+    left: 211px;
+    flex-direction: row;
+}
+
+.subBody {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    width: 609.77px;
+    align-items: flex-start;
 }
 
 .h1 {
-    position: absolute;
-    width: 609.77px;
-    height: 138px;
-    left: 211.94px;
-    top: 261px;
-    font-style: normal;
+    position: relative;
+    /* height: 138px; */
+    margin-top: 132px;
     font-weight: 500;
     font-size: 46px;
     letter-spacing: 0.02em;
 }
 
 .h3 {
-    position: absolute;
-    width: 632.43px;
-    height: 64px;
-    left: 210.99px;
-    top: 420.88px;
-    font-style: normal;
+    position: relative;
+    margin-top: -10px;
+    width: 600.43px;
     font-weight: 400;
     font-size: 26px;
     text-align: justify;
@@ -30,26 +45,22 @@
 }
 
 .button {
-    position: absolute;
-    width: 220px;
-    height: 60px;
-    left: 212px;
-    top: 532.27px;
+    position: relative;
+    /* top: 47px; */
     border-radius: 10px;
 }
 
 .building {
-    position: absolute;
-    width: 806.11px;
-    height: 664px;
-    left: 902.89px;
-    top: 129px;
+    position: relative;
+    top: 33px;
+    left: 65px;
+    width: 100;
 }
 
 .cardWarpper {
-    position: absolute;
-    top: 641.68px;
+    width: 100vw;
+    position: relative;
+    top: -149px;
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
 }

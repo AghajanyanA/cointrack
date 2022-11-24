@@ -1,11 +1,94 @@
 .wrap {
-    width: 292.49px;
-    height: 298.18px;
+    min-width: 292.49px;
+    min-height: 298.18px;
     background: #1C2430;   
     border-radius: 21.6237px; 
+    color: #C5C9F0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
 
-    /* display: flex;
-    align-items: center; */
-    /* justify-content: space-around */
-    
+.subWrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    position: relative;
+    width: 78.18px;
+    height: 59.18px;
+    left: 18.21px;
+    top: 39.83px;
+}
+
+.icon > img {
+    width: 59.18px;
+}
+
+.dataWrap {
+    display: flex;
+    position: relative;
+    margin-left: 12px;
+}
+
+.subDataWrap {
+    display: flex;
+    flex-direction: column;
+    /* align-items: baseline; */
+}
+
+.name {
+    margin: 32px 0 0 0 ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.3142px;
+    line-height: 32px;
+    height: max-content;
+    }
+
+.current_price {
+    margin: 11px 0 0 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27.3142px;
+    line-height: 33px;
+}
+
+.price_change_24h {
+    margin:0;
+    margin-top: 5.7px;
+}
+
+.rightSide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: flex-end;
+}
+
+.price_change_percentage_24h {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9333px;
+    line-height: 19px;
+    align-self: flex-start;
+    margin: 0;
+    margin-top: 85px;
+    margin-left: 26px;
+}
+
+.l24{ 
+    margin: 0;
+    margin-top: 10.6px;
+}
+
+.green {
+    color: #49D76C
+}
+
+.red { 
+    color: red
 }
