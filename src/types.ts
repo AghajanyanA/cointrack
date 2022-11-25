@@ -25,23 +25,7 @@ export type marketsCoins = {
     symbol: string
     total_supply: number
     total_volume: number
+    sparkline_in_7d: {
+        price: number[]
+    }
 }
-
-// export type ActionPayloadError = {
-//     payload: any
-//     type: string
-//     error: {
-//         code: string
-//         message: string
-//         name: string
-//         stack: string
-//     }
-//     meta: {
-//         aborted: boolean
-//         arg: any
-//         condition: boolean
-//         rejectedWithValue: boolean
-//         requestId: string
-//         requestStatus: string
-//     }
-// }

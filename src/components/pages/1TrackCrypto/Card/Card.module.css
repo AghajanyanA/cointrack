@@ -21,6 +21,7 @@
     height: 59.18px;
     left: 18.21px;
     top: 39.83px;
+    color: #ff000038
 }
 
 .icon > img {
@@ -90,4 +91,9 @@
 
 .red { 
     color: red
+}
+
+.chart {
+    width: 100%;
+    height: 100%;
 }

@@ -14,7 +14,7 @@ const Header = () => {
             <div className={s.menu_hamburger} />
         </div>
 
-        <img className={s.logo} src={logo} alt="logo" />
+        <a href="/"><img className={s.logo} src={logo} alt="logo" /></a>
         <nav className={s.navs}>
             <a href="/">Home</a>
             <a href="/">Pricing</a>

@@ -1,0 +1,15 @@
+.wrapper {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1E2633;;
+}
+
+.title {
+    margin-top: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.2703px;
+    color: #F7F4FF;
+}

@@ -10,9 +10,12 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 29px;
+    transition: 0.2s;
 }
 .button:hover {
+    transition: 0.2s;
     cursor: pointer;
+    background: #b497f6;;
 }
 
 .button:active {
