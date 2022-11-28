@@ -35,7 +35,7 @@ const TrackCrypto = () => {
         </div>
         
         <div className={s.cardWarpper}>
-                {coins[coins.length - 1] != undefined &&
+                {coins[coins.length - 1] !== undefined &&
                 coins.map(item => <Card item={item} loading={loading} error={errorMessage} key={item?.id} />)}
         </div>
     </div>;
