@@ -1,16 +1,7 @@
 import { ResponsiveContainer, AreaChart, Area, YAxis, XAxis } from 'recharts'
-import { marketsCoins } from '../../../../types'
+import { CardProps, ChartData } from '../../../../types'
 import s from './Card.module.css'
 
-type CardProps = {
-    loading: boolean
-    error: string
-    item: marketsCoins
-}
-type ChartData = {
-    date: string
-    price: number
-}
 
 
 const Card = ({loading, error, item}:CardProps) => {

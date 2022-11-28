@@ -29,3 +29,14 @@ export type marketsCoins = {
         price: number[]
     }
 }
+
+export type CardProps = {
+    loading: boolean
+    error: string
+    item: marketsCoins
+}
+
+export type ChartData = {
+    date: string
+    price: number
+}

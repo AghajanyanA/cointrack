@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     dispatch(getMarkets())
-  }, [])
+  }, [dispatch])
 
   return (
     <div className="App">

@@ -5,7 +5,6 @@ import marketsSlice from './slices/marketsSlice';
 export const store = configureStore({
   reducer: {
     marketsReducer: marketsSlice,
-    
   },
 });
 
