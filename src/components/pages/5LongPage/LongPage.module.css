@@ -134,6 +134,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .mcTitle {
@@ -168,8 +169,66 @@
     margin-right: 20px;
     width: 282.33px;
     height: 145.32px;
-    /* margin-right: 22px; */
+    justify-content: center;
+    align-items: center;
+    border: 1.38396px solid #686868;
+    border-radius: 6.12444px;
+    transition: ease-in-out .2s;
 }
+.card:hover {
+    cursor: pointer;
+    border: 1.4792px solid #805AD5;
+    border-radius: 6.5459px;
+    transition: ease-in-out .2s;
+    transform: translateY(-10px);
+}
+
+.logoIMG {
+    width: 68px;
+    height: 68px;
+    margin-right: 32.14px;
+}
+
 .card:last-child {
     margin-right: 0;
+}
+
+.bitCards {
+    display: flex;
+    flex-direction: column;
+}
+
+.bitCards > h5 {
+    margin: 36px 0 0 0;
+    font-weight: 600;
+    font-size: 22.1434px;
+    line-height: 148%;
+}
+
+.bitCards > p {
+    font-weight: 600;
+    font-size: 17.7504px;
+    line-height: 148%;
+    margin-top: 15px;
+}
+
+.bitCards > p > img {
+    margin-left: 5.22px;
+}
+
+.or {
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 22.68px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.trial {
+    margin-top: 34.1px;
+    font-weight: 500;
+    font-size: 18.0742px;
+    line-height: 29px;
+    margin-bottom: 61.1px;
 }
