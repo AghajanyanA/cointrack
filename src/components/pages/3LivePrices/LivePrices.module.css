@@ -23,6 +23,19 @@
     font-size: 16px;
     width: 1502.55px;
     height: 541.81px;
-    background: #000;
-    margin-top: 100px
+    background: rgba(0, 0, 0, 0.384);
+    margin-top: 100px;
+    color: #ECECEC;
+}
+.tHeader {
+    border: none;
+    margin: 0;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #1F2633;
+}
+
+.mappedTr {
+  border-bottom: 1px solid white;
+
 }
