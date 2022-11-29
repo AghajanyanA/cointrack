@@ -7,6 +7,8 @@
     z-index: 1;
     background: #212834;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.14);
+    
+    transition: all .2s ease-in-out
 }
 
 .menu {
@@ -123,22 +125,35 @@
         transform: rotate(-45deg) 
     }
     .menuOpen {
-        background:#00000075;
+        background:#000000b7;
         height: calc(100vh - 70px);
         width: 100vw;
         display: flex;
         position: relative;
         top: 22px;
         flex: none;
+        transition: all .5s ease-in-out;
     }
-     .navs {
+    .navsActive {
         display: flex;
+        flex-direction: column;
         position: fixed;
         align-items: center;
-        justify-content: center;
-        top: 0;
-        left: 0;
+        top: 70px;
+        left: 35px;
         width: 100%;
         height: 100%;
+        z-index: 1;
+        transition: all .5s ease-in-out;
+    }
+    .navsActive > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000c0;
+        margin-top: 35px;
+        width: 125px;
+        height: 35px;
+        border-radius: 25px;
     }
 }

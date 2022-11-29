@@ -8,14 +8,15 @@ const Header = () => {
     const toggleClassname = () => {
         setBurgerOpen(prevState => !prevState)
     }
+    
 
     return <div className={s.wrap}>
-        <div className={`${s.menu} ${burgerOpen && s.open}`} onClick={toggleClassname} >
+        <div className={`${s.menu} ${burgerOpen ? s.open : ''}`} onClick={toggleClassname} >
             <div className={s.menu_hamburger} />
         </div>
 
-        <a href="/"><img className={s.logo} src={logo} alt="logo" /></a>
-        <nav className={s.navs}>
+        <a href="/" className={s.logo}><img src={logo} alt="logo" /></a>
+        <nav className={`${s.navs} ${burgerOpen ? s.navsActive : ''}`}>
             <a href="/">Home</a>
             <a href="/">Pricing</a>
             <a href="/">Portfolio</a>
@@ -25,7 +26,7 @@ const Header = () => {
         <div className={s.button}>
             <Button>Start a Free Trial </Button>
         </div>
-        <div className={`${s.dropDownWindow} ${burgerOpen && s.menuOpen} `}>
+        <div className={`${s.dropDownWindow} ${burgerOpen ? s.menuOpen : ''} `}>
 
         </div>
     </div>
