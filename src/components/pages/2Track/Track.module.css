@@ -17,8 +17,7 @@
 
 .test {
     display: flex;
-    margin: 0;
-    margin-left: 209px;
+    margin: 68px 0 0 209px;
 }
 
 .items {
@@ -46,7 +45,8 @@
 
 .pics {
     display: inline-flex;
-    background-color: red;
+    margin-left: 178px;
+    flex-wrap: wrap;
 }
 
 .picGroup {
