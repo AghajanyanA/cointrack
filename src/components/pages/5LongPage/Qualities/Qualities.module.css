@@ -1,0 +1,35 @@
+.aniWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 189px;
+}
+
+.IMG {
+    width: 505px;
+    margin-right: 314px;
+}
+
+.textsPart {
+    display: flex;
+    flex-direction: column;
+    max-width: 676px;
+    margin-right: 213px;
+}
+
+.titleText {
+    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.pText {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 0.075em;
+    color: #8085B1;
+}

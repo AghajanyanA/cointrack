@@ -10,6 +10,9 @@ import kraken from "../../../images/page5/kraken.png"
 import coinbase from "../../../images/page5/coinbase.png"
 import gateio from "../../../images/page5/gateio.png"
 import arrowRight from "../../../images/arrow-right.png"
+import Qualiies from "./Qualities/Qualities";
+
+console.log(typeof cube);
 
 
 const LongPage = () => {
@@ -36,48 +39,24 @@ const LongPage = () => {
           <img className={s.robotIMG} src={robot} alt="" />
         </div>
         <div className={s.animationalPartDiv}>
-          <div className={s.aniWrapper}>
-            <img src={cube} alt="cube pic" className={s.IMG} />
-            <div className={s.textsPart}>
-              <h3 className={s.titleText}>
-                Track your crypto earnings like a pro, with a user-friendly and
-                reliable portfolio tracker.
-              </h3>
-              <p className={s.pText}>
-                Cointrack.ai is the most trusted place to monitor and analyze
+          <Qualiies img={cube} 
+              h3='Track your crypto earnings like a pro, with a user-friendly and
+                reliable portfolio tracker.' 
+                p='Cointrack.ai is the most trusted place to monitor and analyze
                 your cryptocurrency portfolio and calculate your taxes. You can
                 keep track of your profits, losses and portfolio valuation with
-                our easy to use platform.
-              </p>
-            </div>
-          </div>
-          <div className={s.aniWrapper}>
-            <img src={chart} alt="chart" className={s.IMG} />
-            <div className={s.textsPart}>
-              <h3 className={s.titleText}>
-                Review your crypto portfolio and get valuable insights
-              </h3>
-              <p className={s.pText}>
-                We designed and built a streamlined crypto exchange platform for
-                newcomers and experts alike. Cointrack.ai also supports DeFi
-                assets on multiple chains. You can discover the world of
-                decentralized finance
-              </p>
-            </div>
-          </div>
-          <div className={s.aniWrapper}>
-            <img src={shield} alt="shield" className={s.IMG}/>
-            <div className={s.textsPart}>
-              <h3 className={s.titleText}>
-                We offer industry leading protection for your crypto
-              </h3>
-              <p className={s.pText}>
-                When choosing an exchange, trust matters.Protecting the safety
-                and security of your funds, accounts and identity is of the
-                utmost importance for us.
-              </p>
-            </div>
-          </div>
+                our easy to use platform.' />
+          <Qualiies img={chart} 
+              h3='Review your crypto portfolio and get valuable insights' 
+              p='We designed and built a streamlined crypto exchange platform for
+              newcomers and experts alike. Cointrack.ai also supports DeFi
+              assets on multiple chains. You can discover the world of
+              decentralized finance' />
+          <Qualiies img={shield} 
+            h3='We offer industry leading protection for your crypto' 
+            p='When choosing an exchange, trust matters.Protecting the safety
+            and security of your funds, accounts and identity is of the
+            utmost importance for us.' />
         </div>
       </div>
       <div className={s.cashflow}>

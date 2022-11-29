@@ -2,7 +2,6 @@ import { Line, LineChart, YAxis } from "recharts";
 
 const Charts = ({ sparkline }: any) => {
   const prices = sparkline.map((price: any) => ({ price }));
-  console.log(prices);
 
   const hasRisen = prices[0].price < prices[prices.length -1].price
 
