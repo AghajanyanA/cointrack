@@ -3,18 +3,13 @@
     height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
-    /* max-width: 1498px; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    
 }
 
 .body {
     display: flex; 
-    position: relative;
-    top: 49px;
-    right: 211px;
-    left: 211px;
     flex-direction: row;
+    margin: 0 0 0 212px;
 }
 
 .subBody {
@@ -26,17 +21,15 @@
 }
 
 .h1 {
-    position: relative;
-    /* height: 138px; */
-    margin-top: 132px;
+    margin: 132px 0 0 0;
+    width: 610px;
     font-weight: 500;
     font-size: 46px;
     letter-spacing: 0.02em;
 }
 
 .h3 {
-    position: relative;
-    margin-top: -10px;
+    margin-top: 22px;
     width: 600.43px;
     font-weight: 400;
     font-size: 26px;
@@ -45,16 +38,11 @@
 }
 
 .button {
-    position: relative;
-    /* top: 47px; */
     border-radius: 10px;
 }
 
 .building {
-    position: relative;
-    top: 33px;
-    left: 65px;
-    width: 100;
+    margin-top: 35px;
 }
 
 .cardWarpper {

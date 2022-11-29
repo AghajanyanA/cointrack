@@ -4,12 +4,10 @@
     background: #1E2634;
 }
 .header {
-    position:relative;
-    width: 1241px;
-    height: 64px;
-    left: 341px;
-    top: 117px;
-
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 117.2px;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -17,12 +15,15 @@
     color: #FFFFFF;
 }
 
-.items {
-    position: relative;
-    top: calc(257px - 80px);
-    left: 209px;
+.test {
+    display: flex;
     margin: 0;
-    display: inline-block;
+    margin-left: 209px;
+}
+
+.items {
+    
+    margin: 0;
 }
 
 .items > p {
@@ -44,7 +45,6 @@
 }
 
 .pics {
-    position: relative;
     display: inline-flex;
     background-color: red;
 }
@@ -52,10 +52,4 @@
 .picGroup {
     display: flex;
     flex-direction: column;
-}
-
-.test {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
 }
