@@ -15,7 +15,7 @@ const Track = () => {
 
         <div className={s.test}>
 
-        <div className={s.items}>
+            <div className={s.items}>
                 <p><img src={icon} alt="icon" />Crypto portfolio tracking</p>
                 <p><img src={icon2} alt="icon" />24h cryptocurrency market report</p>
                 <p><img src={icon3} alt="icon" />Crypto price alerts</p>
