@@ -24,7 +24,7 @@ const LivePrices = () => {
                     <td><img width='22px' src={coin.image} alt='coin logo' />{coin.name}</td>
                     <td>{coin.current_price.toFixed(2)}</td>
                     <td>{coin.price_change_percentage_24h.toFixed(2)}%</td>
-                    <td>{coin.market_cap.toFixed(2)}</td>
+                    <td>{coin.market_cap.toFixed()}</td>
                     <td>{<Charts sparkline={coin.sparkline_in_7d.price} />}</td>
                     <td>...</td>
                 </tr>)}
