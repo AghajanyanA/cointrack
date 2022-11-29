@@ -3,13 +3,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #1E2633;;
+    background: #1E2633;
 }
 
 .title {
-    margin-top: 87px;
+    margin-top: 67px;
     font-style: normal;
     font-weight: 700;
     font-size: 50.2703px;
     color: #F7F4FF;
+}
+
+.reviews {
+    display: flex;
+    gap: 39px;
+}
+
+.button {
+    margin: 76.62px 0 0 0;
 }
