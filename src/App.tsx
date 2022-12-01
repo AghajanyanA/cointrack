@@ -9,6 +9,7 @@ import LivePrices from './components/pages/3LivePrices/LivePrices';
 import ManageCrypto from './components/pages/4ManageCrypto/ManageCrypto';
 import TrustUs from './components/pages/6TrustUs/TrustUs';
 import LongPage from './components/pages/5LongPage/LongPage';
+import Subscription from './components/pages/7Subscription/Subscription';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <ManageCrypto />
       <LongPage />
       <TrustUs />
+      <Subscription />
     </div>
   );
 }
