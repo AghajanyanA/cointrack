@@ -1,7 +1,7 @@
 .wrapper {
-    width: 100vw;
     height: calc(100vh - 80px);
     background: #1E2634;
+    display: grid;
 }
 .header {
     display: flex;
@@ -44,9 +44,10 @@
 }
 
 .pics {
-    display: inline-flex;
+    display: flex;
     margin-left: 178px;
     flex-wrap: wrap;
+    height: 521px;
 }
 
 .picGroup {

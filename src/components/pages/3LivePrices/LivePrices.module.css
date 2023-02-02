@@ -1,5 +1,4 @@
 .wrapper {
-    width: 100vw;
     height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
@@ -22,7 +21,7 @@
     font-weight: 700;
     font-size: 16px;
     width: 1502.55px;
-    height: 541.81px;
+    height: 450px;
     background: rgba(0, 0, 0, 0.384);
     margin-top: 100px;
     color: #ECECEC;
@@ -38,4 +37,8 @@
 .mappedTr {
   border-bottom: 1px solid white;
 
+}
+
+.loadMore {
+    margin: 70px 0 0 0;
 }
