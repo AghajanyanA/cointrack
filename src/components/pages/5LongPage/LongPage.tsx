@@ -12,8 +12,6 @@ import gateio from "../../../images/page5/gateio.png"
 import arrowRight from "../../../images/arrow-right.png"
 import Qualiies from "./Qualities/Qualities";
 
-console.log(typeof cube);
-
 
 const LongPage = () => {
   return (
