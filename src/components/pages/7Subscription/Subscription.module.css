@@ -10,7 +10,7 @@
     font-size: 50.2703px;
     line-height: 83px;
     color: #F7F4FF;
-    margin: 100.67px 0 0 0;
+    margin: 60.67px 0 0 0;
 }
 
 .p {
@@ -21,4 +21,76 @@
     color: #FFFFFF;
     width: 740px;
     margin-top: 22.4px;
+}
+
+.buttons {
+    display: flex;
+    margin: 22px 0 0 0;
+    border-radius: 5px;
+    background: #1F2736;
+}
+.button {
+    width: 238px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+}
+.button > span {
+    color: #00E2EC;
+    font-size: 18px;
+    padding: 7px 0 0 3px;
+}
+
+.activeButton {
+    background: #805AD5;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cards {
+    margin: 70px 0 0 0;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: 489px;
+    background: #292947;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.card img {
+    height: 62px;
+    width: 62px;
+    margin-top: 24.79px;
+}
+
+.card > h3 {
+    font-weight: 500;
+    font-size: 25.132px;
+}
+
+.price {
+    font-size: 13px;
+    line-height: 37px;
+}
+
+.price > span {    
+    font-size: 61.8634px;
+    line-height: 72px;
+    padding: 0 5px;
+}
+
+.price > .dollarSign {
+    font-size: 23.1988px;
+    margin-bottom: 5px;
 }
