@@ -52,36 +52,60 @@
     transition: all 0.5s ease-in-out;
 }
 
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 489px;
+    background: #292947;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.cardWrapper2 {
+    width: 360px;
+    height: 489px;
+    background: #A588E7;
+    border-radius: 25px;
+}
+
+.cardSubWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .cards {
     margin: 70px 0 0 0;
     display: flex;
     gap: 3%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
-    width: 350px;
-    height: 489px;
-    background: #292947;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-radius: 25px;
 }
-.card img {
+.card > img {
     height: 62px;
     width: 62px;
-    margin-top: 24.79px;
+    margin-top: 30px;
 }
 
 .card > h3 {
     font-weight: 500;
     font-size: 25.132px;
+    margin: 12px 0 0 0
 }
 
 .price {
     font-size: 13px;
     line-height: 37px;
+    margin: 4px 0 0 0;
 }
 
 .price > span {    
@@ -93,4 +117,72 @@
 .price > .dollarSign {
     font-size: 23.1988px;
     margin-bottom: 5px;
+}
+
+.points > div {
+    display: flex;
+    width: 270px;
+    margin-bottom: 3px;
+}
+
+.points > div > img {
+    width: 25px;
+    height: 25px;
+    margin-right: 9px;
+}
+
+.points > div > p {
+    margin: 0;
+}
+
+.blue {
+    color: #05D7D0
+}
+
+.subscribeButton {
+    justify-self: flex-end;
+    margin-bottom: 24.34px;
+}
+
+.subscribeButton > button {
+    width: 282.5px;
+}
+
+.label {
+    position: absolute;
+    text-align: center;
+    margin-top: -7px;
+    margin-left: 26px;
+}
+
+.label > img {
+    margin: 0;
+}
+
+.label > p {
+    margin: 0;
+    font-size: 12px;
+    color: #11615E;
+    font-weight: 500;
+    position: relative;
+    top: -93px;
+}
+
+.second > .points > div {
+    width: 288px;
+    margin-bottom: -2px;
+}
+
+.darkBlue {
+    color:#1F2736 
+}
+
+.teamsText {
+    font-size: 21.2656px;
+    margin: 0 13px;
+    margin-top: 75.55px;
+}
+
+.cardWrapper2 > .cardSubWrapper > .subscribeButton {
+    margin-top: 15px;
 }
