@@ -10,6 +10,7 @@ import ManageCrypto from './components/pages/4ManageCrypto/ManageCrypto';
 import TrustUs from './components/pages/6TrustUs/TrustUs';
 import LongPage from './components/pages/5LongPage/LongPage';
 import Subscription from './components/pages/7Subscription/Subscription';
+import Contacts from './components/pages/8contact/Contacts';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <LongPage />
       <TrustUs />
       <Subscription />
+      <Contacts />
     </div>
   );
 }
