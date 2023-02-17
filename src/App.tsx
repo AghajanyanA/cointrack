@@ -11,6 +11,7 @@ import TrustUs from './components/pages/6TrustUs/TrustUs';
 import LongPage from './components/pages/5LongPage/LongPage';
 import Subscription from './components/pages/7Subscription/Subscription';
 import Contacts from './components/pages/8contact/Contacts';
+import Footer from './components/pages/9Footer/Footer';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <TrustUs />
       <Subscription />
       <Contacts />
+      <Footer />
     </div>
   );
 }

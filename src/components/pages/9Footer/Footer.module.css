@@ -1,0 +1,44 @@
+.footer {
+    background: #1A202C;
+}
+
+.links {
+    margin: 65px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links > div > a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #F6F4FF;
+    text-decoration: none;
+    transition: ease-in-out 0.2s all;
+}
+
+.links > div > a:hover {
+    color: #B8A7FF; 
+}
+
+.firstLink {
+    margin-bottom: -3px;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.logo {
+    margin-top: -6px;
+    width: fit-content;
+}
+
+.outro {
+    max-width: 300px;
+    margin: 0;
+}
