@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: -6px;
 }
 .email > h4 {
     font-weight: 600;
